@@ -1,0 +1,22 @@
+.Footer_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 72px;
+    margin-bottom: 72px;
+    max-width: fit-content;
+    letter-spacing: 1px;
+}
+.Footer_info_list{
+    margin: 10px;
+    max-width: 300px;
+    min-width: 150px;
+}
+.Footer_info_list ul, .Footer_info_list h3{
+    list-style: none;
+    padding: 10px;
+}
+.Footer_info_list ul li, .Footer_info_list ul li a{
+    color: gray;
+    padding-top: 5px;
+    font-size: 0.9em;
+}

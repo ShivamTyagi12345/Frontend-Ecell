@@ -1,0 +1,25 @@
+.footer-logo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    margin: 0px 72px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer-logo__info {
+    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-logo img{
+    width: 200px;
+    object-fit: contain;
+}
+.footer-logo__info > ul{
+    list-style: none;
+    color: gray;
+    font-size: 1.2rem;
+}
+.footer-logo__info > ul > li > a{
+    color: rgb(57, 156, 214);
+}

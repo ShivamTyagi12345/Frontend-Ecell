@@ -7,12 +7,14 @@ import Achievements from './Components/Achievements/Achievements';
 import FAQ from './Components/FAQ/FAQ';
 import Events from  './Components/Events/Events';
 import Facilities from './Components/Facilities/Facilities';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar/>
       </header>
+
       <Switch>
         <Route exact path="/">
           <Home/>
@@ -33,6 +35,10 @@ function App() {
           <Facilities/>
         </Route>
       </Switch>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
