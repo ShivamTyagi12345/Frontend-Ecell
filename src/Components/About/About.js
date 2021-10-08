@@ -33,7 +33,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQF27_okMDcJVw/profile-displayphoto-shrink_400_400/0/1621483176011?e=1639008000&v=beta&t=K-H6rdpAF_X7v9203ha-hiyfHUrjjq3WFHvaza0EWjc" className="card-img-top " alt="..." />
+                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top " alt="..." />
                                 <div className="card-body">
                                     <h5>Rajan Kumar</h5>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -194,7 +194,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQF27_okMDcJVw/profile-displayphoto-shrink_400_400/0/1621483176011?e=1639008000&v=beta&t=K-H6rdpAF_X7v9203ha-hiyfHUrjjq3WFHvaza0EWjc" className="card-img-top img-fluid" alt="..." />
+                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
                                 <div className="card-body">
                                     <h4 className="text-center">Rajan Kumar</h4>
                                     <div className="">
