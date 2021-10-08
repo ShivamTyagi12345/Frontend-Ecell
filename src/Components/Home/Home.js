@@ -17,8 +17,8 @@ const Home
                 <p id="intro_head2">Tinkering Lab is a technical facility open to all the students of National Institute of Technology Patna.</p>
                 <div className="know_more"><a href={"/about"}><button className="btn_home btn2_home">KNOW MORE</button></a></div>
             </div>
-            <div className="facilities">
-                <span className="heading">
+            <div className="HomeFacilities">
+                <span className="Homeheading">
                     <h3>Facilities</h3>
                 </span>
                 <span>
@@ -50,7 +50,7 @@ const Home
                </div>
             </div>
             <div className="HomeUpdates">
-                <span className="heading">
+                <span className="Homeheading">
                     <h3>Updates</h3>
                 </span>
                 <br/>
