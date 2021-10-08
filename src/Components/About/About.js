@@ -20,210 +20,42 @@ const About = (props) => {
                         <div className="line"></div>
                         <div className="head" style={{ marginTop: "10px", marginBottom: "10px", opacity: .7 }}>Mangement</div>
                         <div className="row">
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5>Rajan Kumar</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div> */}
+                            
                             <MangementProfile name="Rajan kumar" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="https://www.w3schools.com/howto/img_avatar.png"/>
-                            {/* <div className="card m-2 " style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5>Rajan Kumar</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div> */}
+                            
                             <MangementProfile name="Rajan kumar" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="https://www.w3schools.com/howto/img_avatar.png"/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top " alt="..." />
-                                <div className="card-body">
-                                    <h5>Rajan Kumar</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div> */}
+                            
                             <MangementProfile name="Rajan kumar" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="https://www.w3schools.com/howto/img_avatar.png"/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5>Rajan Kumar</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div> */}
+                            
                             <MangementProfile name="Rajan kumar" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="https://www.w3schools.com/howto/img_avatar.png"/>
                         </div>
                         <div className="head" style={{ marginTop: "10px", marginBottom: "10px", opacity: .7 }}>Students’ Body</div>
                         <div className="row row-md-2">
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top " alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div> 
-
-                            </div>*/}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className=""style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><i style={{ fontSize: "35px", margin: "12px" }} className="fab fa-facebook-square"></i> </a>
-                                        <a href="\"> <i style={{ fontSize: "35px", margin: "12px" }} className="fab fa-linkedin"></i></a>
-                                        <a href="\"><i style={{ fontSize: "35px", margin: "12px" }} className="fab fa-github"></i></a>
-                                        <a href="\"><i style={{ fontSize: "35px", margin: "12px" }} className="fab fa-twitter"></i></a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
-                            {/* <div className="card m-2" style={{ width: "17rem" }}>
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="text-center">Rajan Kumar</h4>
-                                    <div className="" style={{textAlign:"center"}}>
-                                        <a href="\"><FaFacebookSquare style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                        <a href="\"><FaLinkedinIn style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaGithub style={{ fontSize: "30px", margin: "12px" }} /></a>
-                                        <a href="\"><FaTwitter style={{ fontSize: "30px", margin: "12px" }} /> </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <StudentsProfile name="Rajan kumar" imgUrl="https://www.w3schools.com/howto/img_avatar.png" links={{facebook:"\\",linkedinIn:"\\", github:"//",twitter:"\\"}}/>
                         </div>
                     </div>
