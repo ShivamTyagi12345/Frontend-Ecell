@@ -1,4 +1,4 @@
-import logo from './logo192.png'
+import logo from './nitp-logo.png'
 import './FooterLogo.css'
 
 function FooterLogo() {
