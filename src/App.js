@@ -7,6 +7,7 @@ import Achievements from './Components/Achievements/Achievements';
 import FAQ from './Components/FAQ/FAQ';
 import Events from  './Components/Events/Events';
 import Facilities from './Components/Facilities/Facilities';
+import * as bst from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <div className="App">

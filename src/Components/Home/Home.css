@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.intro {
+  padding: 6rem 6.2vw 10.65em;
+  background: radial-gradient(
+    261.06% 102.71% at 97.34% 2.66%,
+    #577ad3 0,
+    #1b3a8a 100%
+  );
+}
+div {
+  pading-bottom: 20px;
+}
+#intro_head {
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#intro_head2 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 1rem;
+  color: #fff;
+  opacity: 0.5;
+  margin-top: 3.75rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.know_more {
+  margin-top: 3rem;
+}
+.btn_home {
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn2_home {
+  background-color: inherit;
+  border: 1px solid #fff;
+}
+
+.btn2_home:hover {
+  background-color: #ffff;
+  color: #1b3a8a;
+}
+.facilities {
+  padding: 4rem 8.2vw 4rem;
+  background-color: #f0f1f6;
+}
+.heading {
+  font-style: normal;
+  line-height: normal;
+  color: #393939;
+  font-size: 3px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+#facilities_head {
+  float: right;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 1rem;
+  color: #4e7bee;
+}
+.HomeUpdates {
+  padding: 4rem 8.2vw 4rem;
+}
+.HomeFooter {
+  padding: 4rem 8.2vw 4rem;
+  background-color: black;
+  color: white;
+}
+.home a {
+  text-decoration: none;
+}
