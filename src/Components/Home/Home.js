@@ -13,9 +13,10 @@ const Home
     return (
         <div className="home">
             <div className="intro">
-                <p id="intro_head">Get inspired to start tinkering, <br/>building and innovating</p>
-                <p id="intro_head2">Tinkering Lab is a technical facility open to all the students of National Institute of Technology Patna.</p>
-                <div className="know_more"><a href={"/about"}><button className="btn_home btn2_home">KNOW MORE</button></a></div>
+                <div className="alignitem">
+                <p id="intro_head">INNOVATE. INSPIRE. TINKER. </p>
+                <p style={{marginTop:"10px"}}> <marquee id="intro_head2" direction="right" height="100px">TIMING : 10 AM - 11 PM,   MONDAY - SATURDAY</marquee></p>
+                </div>
             </div>
             <div className="HomeFacilities">
                 <span className="Homeheading">
@@ -48,24 +49,7 @@ const Home
                      </Row>
                 </Container>
                </div>
-            </div>
-            <div className="HomeUpdates">
-                <span className="Homeheading">
-                    <h3>Updates</h3>
-                </span>
-                <br/>
-                <p>
-                    Students can now work anytime inside the lab. No timing restrictions are there. Student has to apply 24 hours in advance for key permission.
-                    Students can now work anytime inside the lab. No timing restrictions are there. Student has to apply 24 hours in advance for key permission.
-                </p>
-            </div>
-            <div className="HomeFooter">
-                <span>
-                    For institution details visit :<br/>
-                    <a href="http://www.nitp.ac.in/php/home.php" style={{color:'white'}}> NIT Patna</a>
-                </span>
-            </div>
-  
+            </div>  
         </div>
     )
 }
