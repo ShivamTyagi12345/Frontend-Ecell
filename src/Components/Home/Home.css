@@ -27,9 +27,14 @@
   display: block;
   width: 100%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .intro {
     padding-bottom: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .intro {
+    padding-bottom: 400px;
   }
 }
 .HomeFacilities {
