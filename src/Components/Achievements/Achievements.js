@@ -1,11 +1,43 @@
 import React from 'react'
+import Achievements_unit from './Achievements_unit'
+import img1 from './Images/inter_iit.jpg'
 
 const Achievements = () => {
     return (
-        <div>
-            tstart working here on achievements
-            
-        </div>
+        <>
+            <div className="container p-5">
+                <h2>Achievements</h2>
+                <hr />
+
+                {/* all acheivements array here  */}
+                <div className="row ">
+                    <Achievements_unit img_url={img1} 
+                                        achievement_name="Inter IIT Tech Meet 2019"
+                                        achievement_description="Tinkering Lab,IIT Roorkee supported 8th edition of Inter IIT Tech meet. Team IITR bagged overall First position. DIC's terrace farming bot challenge was also completed here which won the joint first prize in High. Prep events category."
+                                        members = {7}
+                                        acheivement_date = "2019-12-23"
+                                        />
+                    <Achievements_unit img_url={img1} 
+                                        achievement_name="Inter IIT Tech Meet 2019"
+                                        achievement_description="Tinkering Lab,IIT Roorkee supported 8th edition of Inter IIT Tech meet. Team IITR bagged overall First position. DIC's terrace farming bot challenge was also completed here which won the joint first prize in High. Prep events category."
+                                        members = {7}
+                                        acheivement_date = "2019-12-23"
+                                        />
+                    <Achievements_unit img_url={img1} 
+                                        achievement_name="Inter IIT Tech Meet 2019"
+                                        achievement_description="Tinkering Lab,IIT Roorkee supported 8th edition of Inter IIT Tech meet. Team IITR bagged overall First position. DIC's terrace farming bot challenge was also completed here which won the joint first prize in High. Prep events category."
+                                        members = {7}
+                                        acheivement_date = "2019-12-23"
+                                        />
+                    <Achievements_unit img_url={img1} 
+                                        achievement_name="Inter IIT Tech Meet 2019"
+                                        achievement_description="Tinkering Lab,IIT Roorkee supported 8th edition of Inter IIT Tech meet. Team IITR bagged overall First position. DIC's terrace farming bot challenge was also completed here which won the joint first prize in High. Prep events category."
+                                        members = {7}
+                                        acheivement_date = "2019-12-23"
+                                        />
+                </div>
+            </div>
+        </>
     )
 }
 
