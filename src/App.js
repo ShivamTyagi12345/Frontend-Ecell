@@ -8,7 +8,6 @@ import FAQ from './Components/FAQ/FAQ';
 import Events from  './Components/Events/Events';
 import Facilities from './Components/Facilities/Facilities';
 import * as bst from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div className="App">
@@ -35,7 +34,6 @@ function App() {
           <Facilities/>
         </Route>
       </Switch>
-      <Footer />
     </div>
   );
 }
