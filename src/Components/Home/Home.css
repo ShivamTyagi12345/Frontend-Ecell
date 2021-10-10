@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 .intro {
   padding: 6rem 6.2vw 10.65em;
-  background: radial-gradient(
-    261.06% 102.71% at 97.34% 2.66%,
-    #577ad3 0,
-    #1b3a8a 100%
-  );
+  background-image: url('../../assets/homeTop.jpg');
+  width: 100%;
+  position: flex;
+  align-items: center;
+  padding-bottom: 30%;
 }
-div {
-  pading-bottom: 20px;
+.alignitem {
+  font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #intro_head {
   font-size: 3.25rem;
@@ -17,57 +21,33 @@ div {
   line-height: normal;
   color: #fff;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-family: 'Roboto Condensed', sans-serif;
 }
 #intro_head2 {
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-size: 1rem;
   color: #fff;
-  opacity: 0.5;
-  margin-top: 3.75rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  display: block;
+  width: 100%;
 }
-.know_more {
-  margin-top: 3rem;
+@media screen and (max-width: 900px) {
+  .intro {
+    padding-bottom: 50%;
+  }
 }
-.btn_home {
-  border: none;
-  color: white;
-  padding: 8px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.btn2_home {
-  background-color: inherit;
-  border: 1px solid #fff;
-}
-
-.btn2_home:hover {
-  background-color: #ffff;
-  color: #1b3a8a;
+@media screen and (max-width: 500px) {
+  .intro {
+    padding-bottom: 400px;
+  }
 }
 .HomeFacilities {
   padding: 4rem 8.2vw 4rem;
-  background-color: #f0f1f6;
+  background-color: #e6eef5;
 }
 .Homeheading {
   font-style: normal;
   line-height: normal;
   color: #393939;
-  font-size: 3px;
+  font-size: 10px;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 #facilities_head {
   float: right;
@@ -77,14 +57,7 @@ div {
   font-size: 1rem;
   color: #4e7bee;
 }
-.HomeUpdates {
-  padding: 4rem 8.2vw 4rem;
-}
-.HomeFooter {
-  padding: 4rem 8.2vw 4rem;
-  background-color: black;
-  color: white;
-}
+
 .home a {
   text-decoration: none;
 }
