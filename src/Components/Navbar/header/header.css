@@ -7,6 +7,7 @@
   padding: 0px 40px;
   height: 60px;
 }
+
 .logo-nav {
   display: flex;
   align-items: center;
@@ -61,7 +62,7 @@
 .mobile-menu {
   display: none;
 }
-@media (max-width: 648px) {
+@media (max-width: 750px) {
   /*Mobile View */
   .header {
     padding: 0px 10px;

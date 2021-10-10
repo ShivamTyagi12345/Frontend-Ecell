@@ -10,7 +10,7 @@ const Header = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   return (
-    <div className="header">
+    <div className="header fixed-top">
       <div className="logo-nav">
         <div className="logo-container">
           <a href="#">
