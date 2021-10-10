@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import {Container,Row,Col} from 'react-bootstrap';
 import HomeFacilitiesCard from './HomeFacilitiesCard'
-
+import Footer from "../Footer/Footer";
 
 
 
@@ -49,7 +49,8 @@ const Home
                      </Row>
                 </Container>
                </div>
-            </div>  
+            </div> 
+            <Footer/> 
         </div>
     )
 }

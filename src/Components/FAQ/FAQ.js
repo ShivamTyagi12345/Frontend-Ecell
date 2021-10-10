@@ -1,4 +1,5 @@
 import "./styles.css";
+import Footer from "../Footer/Footer";
 const FAQ = () => {
   return (
     <div className="FAQ">
@@ -87,6 +88,7 @@ const FAQ = () => {
 
       </div>
       </div>
+      <Footer/>
     </div>
   )
 }
