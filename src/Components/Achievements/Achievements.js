@@ -1,6 +1,8 @@
 import React from 'react'
 import Achievements_unit from './Achievements_unit'
 import img1 from './Images/inter_iit.jpg'
+import Footer from "../Footer/Footer";
+
 
 const Achievements = () => {
     return (
@@ -37,6 +39,7 @@ const Achievements = () => {
                                         />
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

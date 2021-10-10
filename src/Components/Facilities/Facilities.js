@@ -2,6 +2,8 @@ import React from 'react'
 import "./Facilities.css";
 import image from './delta.png'
 import photo from './top.jpeg'
+import Footer from "../Footer/Footer";
+
 const Facilities = () => {
     return (
         <div>
@@ -36,6 +38,7 @@ const Facilities = () => {
           <img className="pic1" src={image}/>
         </div>
         </div>
+        <Footer/>
       </div>
     )
 }

@@ -4,6 +4,8 @@ import img from "../../assets/artboard_2x.png"
 import img2 from "../../assets/event_header.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+import Footer from "../Footer/Footer";
+
 
 const Events = () => {
   const [isActive, setActive] = useState("false");
@@ -128,6 +130,7 @@ window.onclick = function (event) {
 
               </div>
               </div>
+              <Footer/>
               </>
     )
 }
