@@ -17,7 +17,7 @@ const FAQ = () => {
         <br></br>
 
         <hr />
-      </div>
+     
       <div className="basic-grid">
         <div className="card">
           <div className="question">
@@ -85,6 +85,7 @@ const FAQ = () => {
         </div>
 
 
+      </div>
       </div>
     </div>
   )
