@@ -28,14 +28,15 @@ const About = (props) => {
                         <div className="line"></div>
                         <div className="head" style={{ marginTop: "10px", marginBottom: "10px", opacity: .7 }}>Mangement</div>
                         <div className="row">
-                            <MangementProfile name="DR. Bharat Gupta" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="images/bharatGupta.jpg"/>
+                            
+                            <MangementProfile name="DR. Bharat Gupta" description="Associate Professor. Electronics & Communication Engg." imgUrl="images/bharatGupta.jpg"/>
                             
                             <MangementProfile name="Rajan kumar" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="https://www.w3schools.com/howto/img_avatar.png"/>
                             
                             <MangementProfile name="Rajan kumar" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="https://www.w3schools.com/howto/img_avatar.png"/>
                             
                             <MangementProfile name="Rajan kumar" description="Some quick example text to build on the card title and make up the bulk of the card's content." imgUrl="https://www.w3schools.com/howto/img_avatar.png"/>
-                          
+                            
                         </div>
                         <div className="head" style={{ marginTop: "10px", marginBottom: "10px", opacity: .7 }}>Students’ Body</div>
                         <div className="row row-md-2">
