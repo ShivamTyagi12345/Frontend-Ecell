@@ -6,7 +6,6 @@ const Navbar = () => {
     return (
         <div className="Navbar">
             <Header />
-
         </div>
 
     )

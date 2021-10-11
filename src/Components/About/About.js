@@ -2,6 +2,7 @@ import React from "react";
 import './about.css';
 import StudentsProfile from "./StudentsProfile";
 import MangementProfile from "./MangementProfile";
+import Footer from "../Footer/Footer"
 const About = (props) => {
     return (
         <div className="vision">
@@ -68,6 +69,7 @@ const About = (props) => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
