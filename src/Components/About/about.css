@@ -61,8 +61,8 @@ h1, h2 {
         font-size: 18px;
     }
     .m-2{
-        /* margin: 2rem !important; */
-        /* margin: 0rem !important; */
+        margin: 2rem !important; 
+        margin: 0rem !important;
     }
 }
 @media (max-width: 400px){
