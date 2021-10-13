@@ -10,7 +10,7 @@ function FooterLogo() {
             <div className="footer-logo__info footer-logo__component">
                 <ul>
                     <li>For institution details visit</li>
-                    <li><a href="www.ecell-nitp.ac.in" target="_blank">www.ecell-nitp.ac.in</a></li>
+                    <li><a href="https://www.ecell-nitp.ac.in" target="_blank">www.ecell-nitp.ac.in</a></li>
                 </ul>
             </div>
         </div>
