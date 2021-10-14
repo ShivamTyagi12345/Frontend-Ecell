@@ -1,0 +1,10 @@
+.facility-description{
+    width: 60%;
+}
+
+.facility-description__parent{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: max-content;
+}
