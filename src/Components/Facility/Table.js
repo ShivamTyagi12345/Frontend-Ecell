@@ -66,6 +66,7 @@ function Table() {
 
     <div>
        {selectedItemId != null && <Description description={selectedItem}/>  }
+       {selectedItemId == null && <Description description={sampleFacility[0]}/>  }
     </div>
     </div>
   );
