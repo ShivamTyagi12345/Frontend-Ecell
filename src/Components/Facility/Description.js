@@ -2,13 +2,10 @@ import './Description.css'
 import DescriptionTable from './DescriptionTable'
 
 function Description({description}) {
-    const keysDesc = Object.keys(description)
-
-    // console.log(keysDesc)
-    // function getValue(description, key){
-    //     return Object.keys(description).find(k => description[k]=== key)
-    // }
-    // console.log(description.keysDesc[0])
+    let keysDesc = Object.keys(description)
+    const imageUrl = keysDesc[keysDesc.length - 1]
+    keysDesc = keysDesc.slice(1, -1)
+    
     return (
         <div className="facility-description">
             <div className="facility-description__parent">
@@ -24,7 +21,7 @@ function Description({description}) {
                 })
             }
             </div>
-            
+            <img src={description[imageUrl]} alt="image" />
         </div>
     )
 }

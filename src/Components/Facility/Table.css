@@ -1,20 +1,18 @@
 .facility-box-total{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
 }
-.box{
-    display: grid;
-     margin-top: 5.5%;
-     margin-left: 5.5%;
-     content: unset;
-     border: 1px rgb(234,239,242);
-     height: 40px;
-     grid-column: 1/2;
-     
-   }
-   .photo{
-     width: 100vw;
-   }
+.facility-table{
+  margin: 10px;
+}
+.facility-description__parent{
+  display: flex;
+
+}
+
+
    .box-detail{
      background-color: white;
      padding: 0px,16px,0px,24px;
@@ -28,12 +26,7 @@
      content: unset;
    
    }
-   .page{
-     display: grid;
-     display: grid;
-     grid-template-columns: auto auto auto auto;
-     padding: 10px;
-   }
+   
    .box-detail-text{
      display: flex;
      align-items: flex-start;
@@ -64,19 +57,3 @@
      align-items: flex-start;
      color: black;
    }
-   .content-grid{
-     display: grid;
-     grid-column: 1/2;
-     
-   }
-   .pic1{
-     height:30vh;
-     display: flex;
-     
-   }
-   .specs{
-     width: 30vw;
-     margin-left: 70vw;
-     display: block;
-   }
-   

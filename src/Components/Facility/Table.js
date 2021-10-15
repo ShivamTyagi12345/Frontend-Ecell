@@ -19,52 +19,56 @@ function Table() {
 
   return (
       <div className="facility-box-total">
-    <div className="facility-table">
-      <div className="page">
-        <div className="box">
+        <div className="facility-table">
 
-          <details className="box-detail">
-            <summary className="box-detail-text">3D Printers</summary>
-            <span class="caret"></span>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}
-            >Delta wasp 2040</p>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}
-            >Ultimaker 2</p>
-          </details>
 
-          <details className="box-detail">
-            <summary className="box-detail-text">3D Printers</summary>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}>Delta wasp 2040
-            </p>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}>Ultimaker 2
-            </p>
-          </details>
+              <details className="box-detail">
+                <summary className="box-detail-text">3D Printers</summary>
+                <span class="caret"></span>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}
+                >Delta wasp 2040</p>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}
+                >Ultimaker 2</p>
+              </details>
 
-          <details className="box-detail">
-            <summary className="box-detail-text">3D Printers</summary>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}>Delta wasp 2040</p>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}>Ultimaker 2</p>
-          </details>
-          <details className="box-detail">
-            <summary className="box-detail-text">3D Printers</summary>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}>Delta wasp 2040</p>
-            <p className="box-detail-subtext"
-                onClick = {(e)=>handleToBeSelectedId(e)}>Ultimaker 2</p>
-          </details>
-        </div>
+              <details className="box-detail">
+                <summary className="box-detail-text">3D Printers</summary>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Delta wasp 2040
+                </p>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Ultimaker 2
+                </p>
+              </details>
 
-      </div>
+              <details className="box-detail">
+                <summary className="box-detail-text">3D Printers</summary>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Delta wasp 2040</p>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Ultimaker 2</p>
+              </details>
+              <details className="box-detail">
+                <summary className="box-detail-text">3D Printers</summary>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Delta wasp 2040</p>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Ultimaker 2</p>
+              </details>
+              <details className="box-detail">
+                <summary className="box-detail-text">3D Printers</summary>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Delta wasp 2040</p>
+                <p className="box-detail-subtext"
+                    onClick = {(e)=>handleToBeSelectedId(e)}>Ultimaker 2</p>
+              </details>
+           
     </div>
 
 
-    <div>
+    <div className="facility-description__parent">
        {selectedItemId != null && <Description description={selectedItem}/>  }
        {selectedItemId == null && <Description description={sampleFacility[0]}/>  }
     </div>

@@ -1,7 +1,10 @@
 .row{
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 3px;
     display: grid;
     grid-template-columns: repeat(2, 1fr );
-    width: 100%;
+    border-bottom: 1px solid rgb(189, 189, 189);
 }
 .row-item{
     display: inline-block;
