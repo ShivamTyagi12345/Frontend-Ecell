@@ -22,7 +22,9 @@ export const sampleFacility = [
     },
     {
         Id : 2,
+        Changes: "see both facility have different key value pair",
         Name: "Ultimaker 2",
+        Email: "Contactme@gmail.com",
         buildPlate : "We can fill this stuff later",
         layerResolution: "I know, but can't tell",
         weight: "10kg",
