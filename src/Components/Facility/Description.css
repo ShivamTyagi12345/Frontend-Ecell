@@ -1,0 +1,14 @@
+.facility-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.facility-description__parent{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: max-content;
+}
+.facility-description__parent h3{
+    text-align: center;
+}

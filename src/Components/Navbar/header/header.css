@@ -62,6 +62,30 @@
 .mobile-menu {
   display: none;
 }
+
+.nav-options .option{
+  position: relative;
+}
+.nav-options .option::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 0%;
+  background: red;
+  transition: 300ms;
+
+}
+.nav-options .option:hover::after{
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+
 @media (max-width: 750px) {
   /*Mobile View */
   .header {
