@@ -1,14 +1,57 @@
 .facility-description{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    width: 60vw;
+    margin-left: 0%;
+    padding-left: 0%;
 }
 
 .facility-description__parent{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-    border: 2px solid red;
-    width: max-content;
+    /* align-items: center; */
+    /* width: max-content; */
+    /* margin: 0;
+    padding: 0%; */
 }
 .facility-description__parent h3{
     text-align: center;
+    padding: 2px;
+    margin: 2px;
+    border-bottom: 4px solid rgb(240,241,246);
+    font-size: 2rem;
+}
+.discription-image{
+    width: 150px;
+    margin-left: 25%;
+}
+.container-description{
+    align-items: center;
+}
+@media (max-width: 750px){
+    .discription-image{
+        display: flex;
+        flex-flow: row;
+        overflow: hidden;
+        margin: 0%;
+        width: 60vw;
+        align-self: center;
+    }
+    .facility-description{
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        width: 90vw;
+        margin-left: 0%;
+        padding-left: 0%;
+        overflow: hidden;
+    }
+    .facility-description__parent h3{
+        margin-top: 20px;
+        text-align: left;
+        padding: 2px;
+       
+        border-bottom: 4px solid rgb(240,241,246);
+        font-size: 2rem;
+    }
 }

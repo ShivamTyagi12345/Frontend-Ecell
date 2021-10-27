@@ -20,8 +20,6 @@ function Table() {
   return (
       <div className="facility-box-total">
         <div className="facility-table">
-
-
               <details className="box-detail">
                 <summary className="box-detail-text">3D Printers</summary>
                 <span class="caret"></span>
