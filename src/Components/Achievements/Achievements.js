@@ -37,7 +37,7 @@ const Achievements = () => {
                                         members = {7}
                                         acheivement_date = "2019-12-23"
                                         />
-                </div>
+                 </div>
             </div>
             <Footer/>
         </>

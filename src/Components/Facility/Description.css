@@ -29,6 +29,7 @@
     align-items: center;
 }
 @media (max-width: 750px){
+    
     .discription-image{
         display: flex;
         flex-flow: row;

@@ -1,18 +1,17 @@
-.row{
+.facility-row{
     margin: auto;
     margin-left: 5px;
     margin-right: 2px;
     display: grid;
     grid-template-columns: repeat(2, 1fr );
     height: 48.5px;
-    
 }
 .row-item{
     display: inline-block;
     min-width: 40px;
     /* max-width: max-content; */
 }
-.row:nth-child(odd){
+.facility-row:nth-child(odd){
     background-color: rgb(240,241,246);
 }
 .row-key{
