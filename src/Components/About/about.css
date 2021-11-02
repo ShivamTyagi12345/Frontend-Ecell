@@ -29,18 +29,17 @@ h1, h2 {
  .m-2:hover{
     border: 1px solid #5b90de!important;
 }
-.card img {
+.card  {
       filter: gray; 
       -webkit-filter: grayscale(1); 
       -webkit-transition: all .1s ease-in-out;  
     }
 
- .card img:hover {
+ .card:hover {
     filter: none;
       -webkit-filter: grayscale(0);
-      
+      transform: scale(1.02) !important;
     }
-
 @media (max-width: 800px){
     
     .about .vision .vision-text {
@@ -61,8 +60,7 @@ h1, h2 {
         font-size: 18px;
     }
     .m-2{
-        /* margin: 2rem !important; */
-        /* margin: 0rem !important; */
+        margin: 2rem !important;
     }
 }
 @media (max-width: 400px){
