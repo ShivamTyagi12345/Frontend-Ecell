@@ -1,7 +1,8 @@
 .facility-box-total{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
+  margin-left: 5%;
   width: 100%;
 }
 .facility-table{
@@ -9,19 +10,22 @@
 }
 .facility-description__parent{
   display: flex;
-
+  margin-left: 2%;
+ 
 }
-
+.photo{
+  width: 100vw;
+}
 
    .box-detail{
      background-color: white;
      padding: 0px,16px,0px,24px;
-     width:191px;
+     width:15vw;
     
      border: 2px solid rgba(234, 239, 242, 0.959);
      
-     margin-left: 40px;
-     
+     /* margin-left: 40px; */
+     margin-right: 0%;
      align-items: flex-start;
      content: unset;
    
@@ -45,9 +49,13 @@
    
    }
    .box-detail-subtext:hover{
-     color: rgb(68, 142, 247);
-     border-right: 3px solid rgb(68, 142, 247);
-     background-color: rgb(233, 246, 254);
+
+     color: rgb(68,142,247);
+   }
+   .box-detail-subtext:focus{
+    color: rgb(68, 142, 247);
+    border-right: 3px solid rgb(68, 142, 247);
+    background-color: rgb(233, 246, 254);
    }
    .box-detail-subtext{
      padding-left: 50px;
@@ -57,3 +65,35 @@
      align-items: flex-start;
      color: black;
    }
+.content{
+  margin-top: 70px;
+}
+@media (max-width: 750px){
+  .box-detail{
+    background-color: white;
+    margin-left: 0%;
+    width:90vw;
+    display: block;
+    align-content: center;
+    border: 2px solid rgba(234, 239, 242, 0.959);
+    
+    /* margin-left: 40px; */
+    margin-right: 0%;
+    align-items: flex-start;
+    content: unset;
+  
+  }
+  .facility-box-total{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin-left: 0;
+    width: 100%;
+    align-items: center;
+  }
+  .photo{
+    height: 25vh;
+    overflow: hidden;
+    align-content: center;
+  }
+}

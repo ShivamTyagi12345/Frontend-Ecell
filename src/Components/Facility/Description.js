@@ -8,6 +8,7 @@ function Description({description}) {
     
     return (
         <div className="facility-description">
+          
             <div className="facility-description__parent">
             <h3>
                 {description["Name"]}
@@ -20,9 +21,12 @@ function Description({description}) {
                     )
                 })
             }
-            </div>
-            <img src={description[imageUrl]} alt="image" />
         </div>
+
+        <img className="discription-image"  src={description[imageUrl]} alt="image" />
+            </div>
+           
+ 
     )
 }
 

@@ -6,7 +6,7 @@ function DescriptionTable(props) {
     console.log(description)
     return (
         
-        <div className="row">
+        <div className="facility-row">
             <div className="row-key row-item">{keyF}</div>
             <div className="row-value row-item">{description}</div>
         </div>

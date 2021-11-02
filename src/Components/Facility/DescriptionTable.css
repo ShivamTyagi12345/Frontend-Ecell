@@ -1,13 +1,23 @@
-.row{
+.facility-row{
     margin: auto;
     margin-left: 5px;
-    margin-right: 3px;
+    margin-right: 2px;
     display: grid;
     grid-template-columns: repeat(2, 1fr );
-    border-bottom: 1px solid rgb(189, 189, 189);
+    height: 48.5px;
 }
 .row-item{
     display: inline-block;
-    min-width: 100px;
-    max-width: max-content;
+    min-width: 40px;
+    /* max-width: max-content; */
+}
+.facility-row:nth-child(odd){
+    background-color: rgb(240,241,246);
+}
+.row-key{
+    width: 98.58px;
+    font-weight: 800;
+}
+.row-value{
+    color: rgb(127,126,130);
 }
