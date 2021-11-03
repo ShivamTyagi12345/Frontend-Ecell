@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer"
 const About = (props) => {
     return (
         <div className="vision">
-            <img className="img-fluid" src="https://source.unsplash.com/1536x400/?notebook,pen" alt="top-img" />
+            <img className="img-fluid" src="https://source.unsplash.com/1536x600/?notebook,pen" alt="top-img" />
             <div className="container" style={{ paddingTop: "30px", color: "#393939" }}>
                 <h1 className="headings" style={{ textAlign: "initial" }}>Vision</h1>
                 <div className="vision-text" style={{ opacity: .6 }}>

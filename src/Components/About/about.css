@@ -74,7 +74,7 @@ body{
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 376px){
     
     .abt-row{
         margin-left: 1rem !important;
