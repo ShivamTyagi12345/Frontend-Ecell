@@ -8,7 +8,7 @@ import { FaTwitter } from 'react-icons/fa'
 const StudentsProfile = (props) => {
 
     return (
-        <div className="card m-2" style={{ width: "17rem" }}>
+        <div className="card m-2 abt-card" style={{ width: "16rem" }}>
             <img src={props.imgUrl} className="card-img-top img-fluid" alt="..." />
             <div className="card-body">
                 <h4 className="text-center">{props.name}</h4>
