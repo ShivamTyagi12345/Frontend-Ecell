@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer"
 function Facility() {
     return (
         <div className="facility-grandParent">
-            <img className="photo" src = {top}/> 
+            <img className="photo" src = {top} alt="Top-img"/> 
             <div className="content">
                 <Table />
             </div>
