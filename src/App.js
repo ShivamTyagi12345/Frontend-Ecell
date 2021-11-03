@@ -9,9 +9,11 @@ import Events from  './Components/Events/Events';
 // import Facilities from './Components/Facilities/Facilities';
 // import * as bst from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import FacilitiesNew from './Components/Facility/FacilitiesNew';
+import ScrollToTop from './ScrollToTop'
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <header className="App-header">
         <Navbar/>
       </header>
