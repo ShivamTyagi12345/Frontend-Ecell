@@ -6,8 +6,9 @@ import Home from './Components/Home/Home';
 import Achievements from './Components/Achievements/Achievements';
 import FAQ from './Components/FAQ/FAQ';
 import Events from  './Components/Events/Events';
-import Facilities from './Components/Facilities/Facilities';
+// import Facilities from './Components/Facilities/Facilities';
 import * as bst from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import FacilitiesNew from './Components/Facility/FacilitiesNew';
 function App() {
   return (
     <div className="App">
@@ -30,8 +31,9 @@ function App() {
         <Route exact path="/achievements">
           <Achievements/>
         </Route>
+       
         <Route exact path="/facilities">
-          <Facilities/>
+          <FacilitiesNew />
         </Route>
       </Switch>
     </div>

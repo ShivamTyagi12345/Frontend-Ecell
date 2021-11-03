@@ -1,4 +1,6 @@
 import './FooterInfo.css'
+import logo from './nitp-logo.png'
+
 
 function FooterInfo() {
     return (
@@ -32,6 +34,18 @@ function FooterInfo() {
                     <li>Tinkering laboratory, Hafiz Mohd.Ibrahim Building, Opposite Security office, Indian Institute of Technology Roorkee, Roorkee, Haridwar district, Uttarakhand, IndiaPIN - 247667
                     </li>
                 </ul>
+            </div>
+
+            <div className="footer-logo">
+
+                <img src={logo} alt="e-cell logo" className="footer-logo__component" />
+                {/* <img src={logo} alt="e-cell logo" /> */}
+                <div className="footer-logo__info footer-logo__component">
+                    <ul>
+                        <li>For institution details visit</li>
+                        <li><a href="www.ecell-nitp.ac.in" target="_blank">www.ecell-nitp.ac.in</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
