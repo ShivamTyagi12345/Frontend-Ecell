@@ -3,15 +3,25 @@ body{
     font-family: Roboto Condensed,sans-serif!important;
 
 }
-h1, h2 {
+.headings {
     font-style: normal;
     line-height: normal;
     color: #393939;
 }
+.abt-paragraph {
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .line{
+    height: 0px !important;
     margin-top: 5px!important;
-    opacity: .1;
-    border: .5px solid #0e0d0d;
+    opacity: .7;
+    border: 0.5px solid #0e0d0d;
     width: 100%;
     }
 .vision-text{
@@ -21,30 +31,27 @@ h1, h2 {
 .team-unit { 
      margin: 7.625rem 0;
 }
-.m-2{
-    border: none !important;
+
+.abt-card  {
     padding: 0px !important;
-    
-}
- .m-2:hover{
-    border: 1px solid #5b90de!important;
-}
-.card  {
+
+    box-shadow: none !important;
+      border: none !important;
       filter: gray; 
       -webkit-filter: grayscale(1); 
-      -webkit-transition: all .1s ease-in-out;  
+      /* -webkit-transition: all .1s ease-in-out;   */
     }
 
- .card:hover {
+ .abt-card:hover {
+    border: 1px solid #5b90de!important;
+
     filter: none;
       -webkit-filter: grayscale(0);
-      transform: scale(1.02) !important;
+      transform: scale(1) !important;
     }
 @media (max-width: 800px){
     
     .about .vision .vision-text {
-    
-    
         margin-top: 10px;
         font-style: normal;
         font-weight: 300;
@@ -59,12 +66,17 @@ h1, h2 {
     h1 {
         font-size: 18px;
     }
-    .m-2{
-        margin: 2rem !important;
+}
+@media (max-width: 451px){
+    
+    .abt-row{
+        margin-left: 1.8rem !important;
     }
 }
-@media (max-width: 400px){
-    .m-2{
-        margin: 2.5rem !important;
+
+@media (max-width: 376px){
+    
+    .abt-row{
+        margin-left: 1rem !important;
     }
 }

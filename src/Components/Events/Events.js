@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "./Event.css"
 import img from "../../assets/artboard_2x.png"
-import img2 from "../../assets/event_header.jpg"
+// import img2 from "../../assets/event_header.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import Footer from "../Footer/Footer";
@@ -21,7 +21,8 @@ window.onclick = function (event) {
 }
     return ( <>
       <div className={ isActive ? "blur" : "blur display"}></div>
-      <img src={img2} alt="image" className='event_head'/>
+      <img className="img-fluid" src="https://source.unsplash.com/1600x500/?code,coding" alt="top-img"/>
+
         <div className="events">
           
           <h1>Events</h1>
