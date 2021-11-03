@@ -23,7 +23,7 @@ function Description({description}) {
             }
         </div>
 
-        <img className="discription-image"  src={description[imageUrl]} alt="image" />
+        <img className="discription-image"  src={description[imageUrl]} alt="discription-img" />
             </div>
            
  
